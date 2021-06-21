@@ -4,8 +4,8 @@ using System.Text;
 
 namespace mongodb_youtube
 {
-    public class comment
+    public class Comment
     {
-        public string tilte { get; set; }
+        public string title { get; set; }
     }
 }
