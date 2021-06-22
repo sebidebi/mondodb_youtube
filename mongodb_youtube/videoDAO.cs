@@ -82,7 +82,6 @@ namespace mongodb_youtube
              {
                  if (doc["title"].ToString() == title)
                  {
-                     string description = doc["description"].ToString();
                      vids.DeleteOneAsync(Builders<BsonDocument>.Filter.Eq("title", title));
                      break;
                  }
