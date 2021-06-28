@@ -58,7 +58,7 @@ namespace mongodb_youtube
             {
                 System.Console.WriteLine("..............");
                 System.Console.WriteLine("1. Show all");
-                System.Console.WriteLine("2. Search");+
+                System.Console.WriteLine("2. Search");
                 System.Console.WriteLine("3. Insert video");
                 System.Console.WriteLine("4. Delete video");
                 System.Console.WriteLine("..............");
